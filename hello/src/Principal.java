@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 
 public class Principal {
 
@@ -7,7 +9,12 @@ public class Principal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("Hello World");
+		Scanner entrada=new Scanner (System.in);
+		String nome;
+		
+		System.out.println("Digite seu nome");
+		nome =entrada.next();
+		System.out.println("Heloo "+ nome);
 
 	}
 
